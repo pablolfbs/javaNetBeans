@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/06/2018, 20:59:14
+    Author     : 36115142016.2N
+*/
+
+body {
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+#tudo {
+    padding: 0;
+    margin-top: 0;
+    margin-left: 2%;
+    width: 95%;
+    min-height: 95vh;
+    border: white thick groove;
+}
+
+#cabecalho {
+    padding-top: 2%;
+    margin: 0;
+    min-height: 8vh;
+    border: white thick groove;
+}
+
+#meio {
+    margin: 0;
+    min-height: 67vh;
+    border: white thick groove;
+}
+
+#nav {
+    float: left;
+    margin: 0;
+    width: 20.2%;
+    min-height: 65vh;
+    border: white thick groove;
+}
+
+#tituloDoNav {
+    padding-top: 2%;
+    margin: 0;
+    min-height: 3.5vh;
+    border: white thick groove;
+}
+
+.divDoPeriodo {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /*margin-top: 2%;*/
+    min-height: 3.5vh;
+    border: white thick groove;
+}
+
+.selectDoPeriodo {
+    width: 90%;
+}
+
+#direita {
+    margin-left: 21%;
+    min-height: 65vh;
+    border: white thick groove;
+}
+
+#barraDeMenu {
+    padding: 0;
+    margin: 0;
+    min-height: 4.45vh;
+    border: white thick groove;
+}
+
+#espacadorDeMenu {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 15%;
+    min-height: 3vh;
+    border: white thick groove;
+}
+
+menu {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 15%;
+    min-height: 3vh;
+    border: white thick groove;
+}
+
+.botao {
+    text-decoration: none;
+    color: white;
+}
+
+menu:hover {
+    background-color: white;
+}
+
+menu:hover .botao {
+    color: black;
+}
+
+#rodape {
+    margin: 0;
+    min-height: 13vh;
+    border: white thick groove;
+}
+

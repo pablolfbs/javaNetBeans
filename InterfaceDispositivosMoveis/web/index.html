@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="tudo">
+            <div id="cabecalho">
+                SISTEMA DE ACOMPANHAMENTO DE DISCENTES
+            </div>
+            <div id="meio">
+                <div id="nav">
+                    <div id="tituloDoNav">
+                        DISCIPLINAS
+                    </div>
+                    <div class="divDoPeriodo">
+                        <input type="radio" name="periodo" id="radioDoPrimeiroPeriodo" onclick="processar1()">
+                        <label for="radioDoPrimeiroPeriodo">PRIMEIRO PERÍODO</label>
+                        <select class="selectDoPeriodo" id="selectDoPeriodo1">
+                            <option id="option1" selected=""></option>
+                            <option id="uml1">
+                                UML 1
+                            </option>
+                            <option id="portugues">
+                                PORTUGUÊS INSTRUMENTAL
+                            </option>
+                            <option id="aoo">
+                                ANÁLISE ORIENTADA A OBJETOS
+                            </option>
+                            <option id="algoritmos">
+                                ALGORITMOS
+                            </option>
+                            <option id="raciocinio">
+                                RACIOCÍNIO LÓGICO E MATEMÁTICO
+                            </option>
+                            <option id="redes">
+                                REDES E INFRAESTRUTURA
+                            </option>
+                            <option id="arquitetura">
+                                ARQUITETURA DE COMPUTADORES
+                            </option>
+                            <option id="direitos">
+                                DIREITOS HUMANOS
+                            </option>
+                            <option id="projeto1">
+                                PROJETO INTEGRADOR
+                            </option>
+                        </select>
+                    </div>
+                    <div class="divDoPeriodo">
+                        <input type="radio" name="periodo" id="radioDoSegundoPeriodo" onclick="processar2()">
+                        <label for="radioDoSegundoPeriodo">SEGUNDO PERÍODO</label>
+                        <select class="selectDoPeriodo" id="selectDoPeriodo2">
+                            <option id="option2" selected=""></option>
+                            <option id="uml2">
+                                UML 2
+                            </option>
+                            <option id="db1">
+                                BANCO DE DADOS 1
+                            </option>
+                            <option id="tecWeb1">
+                                TECNOLOGIA WEB 1
+                            </option>
+                            <option id="rup">
+                                RUP
+                            </option>
+                            <option id="projeto2">
+                                PROJETO INTEGRADOR 2
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div id="direita">
+                    <div id="barraDeMenu">
+                        <div id="espacadorDeMenu"> </div>
+                        <menu>
+                            <a href="#" class="botao">
+                                CADASTRAR
+                            </a>
+                        </menu>
+                        <menu>
+                            <a href="#" class="botao">
+                                ATUALIZAR
+                            </a>
+                        </menu>
+                        <menu>
+                            <a href="#" class="botao">
+                                EXCLUIR
+                            </a>
+                        </menu>
+                        <menu>
+                            <a href="#" class="botao">
+                                LISTAR
+                            </a>
+                        </menu>
+                        <menu>
+                            <a href="#" class="botao">
+                                SAIR
+                            </a>
+                        </menu>
+                    </div>
+                </div>
+            </div>
+            <div id="rodape">
+                RODAPÉ
+            </div>
+        </div>
+    </body>
+</html>
