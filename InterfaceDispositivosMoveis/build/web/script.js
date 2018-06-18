@@ -1,9 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 //function processar1(){
 //    document.getElementById("selectDoPeriodo1").disabled = false;
 //    document.getElementById("option2").selected = true;
@@ -64,8 +58,6 @@
 //    document.getElementById("selectDoPeriodo4").disabled = true;
 //}
 
-
-
 function processar(number) {
     let options = [];
     for(let i = 1; i <= 5; i++) {
@@ -83,7 +75,6 @@ function processar(number) {
     toggleSelects(number);
 }
 
-
 function toggleSelects(number) {
     let selects = [];
     for(let i = 1; i <= 5; i++) {
@@ -99,7 +90,6 @@ function toggleSelects(number) {
     }
     
 }
-
 
 //function processar1() {
 //    document.getElementById("option2").selected="true";
