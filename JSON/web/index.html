@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div {
+                margin-top: 10%;
+                margin-left: 40%;
+                width: 20%;
+            }
+        </style>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div>
+            <form action="http://localhost:8080/JSON/Servlet1" method="get">
+                <label for="campoNome">NOME</label>
+                <input type="text" name="campoNome" id="campoNome"/>
+                <br><br>
+                <label for="campoIdade">IDADE</label>
+                <input type="text" name="campoIdade" id="campoIdade"/>
+                <br>
+                <input type="submit" value="ENVIAR"/>
+
+                <br><br>
+
+                <label for="campoNome2">NOME</label>
+                <input type="text" name="campoNome2" id="campoNome2"/>
+                <br><br>
+                <label for="campoIdade2">IDADE</label>
+                <input type="text" name="campoIdade2" id="campoIdade2"/>
+                <br>
+            </form
+            <a class="waves-effect waves-light btn" onclick="enviar()">ENVIAR</a>
+            <button onclick="enviar()">ENVIAR</button>
+        </div>
+    </body>
+</html>
