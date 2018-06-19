@@ -94,5 +94,4 @@ public class Servlet1 extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
 }

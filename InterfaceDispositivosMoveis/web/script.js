@@ -88,7 +88,6 @@ function toggleSelects(number) {
             select.setAttribute('disabled', 'true');
         }
     }
-    
 }
 
 //function processar1() {
