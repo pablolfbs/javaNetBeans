@@ -14,7 +14,7 @@ import org.json.simple.JSONObject;
 
 /**
  *
- * @author 36115142016.2N
+ * @author pablo
  */
 public class Servlet1 extends HttpServlet {
 
@@ -94,5 +94,4 @@ public class Servlet1 extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
 }
